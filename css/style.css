@@ -1,0 +1,301 @@
+body {
+    background: #F4F4F4;
+    margin: 0;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    background: #FFF;
+    box-shadow: 0px 9px 13px 5px;
+    border-radius: 5px;
+}
+
+h1#title {
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+    padding: 10px 0px 0px 0px;
+    font-family: "Source Sans Pro";
+}
+
+img#kdbimg {
+    width: 25%;
+    float: left;
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+nav#menu {
+    margin-bottom: 10px;
+    background-color: #7cc4ff;
+    text-decoration: none;
+}
+
+#menu a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Source Sans Pro";
+}
+
+#main {
+    text-align: left;
+    line-height: 20px;
+}
+
+#profile-info {
+    float: right;
+    width: 60%;
+    margin: 10px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: "Source Sans Pro";
+}
+
+#description {
+    clear: both;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-family: "Lucida Sans Unicode";
+    font-size: 17px;
+}
+
+#profile-info a#pposition, a#team {
+    text-decoration: none;
+    color: black;
+}
+
+#profile-info a#pposition:hover {
+    color: aqua;
+}
+
+a#team:hover {
+    color: aqua;
+}
+
+footer {
+    padding: 6px 40px 6px 40px;
+    background: #d6d6d6;
+    font-family: "Lucida Sans Unicode";
+    color: #444444;
+    font-size: 11px;
+    text-decoration: right;
+}
+
+footer a {
+    text-decoration: none;
+    color: #262626;
+}
+
+/***************** Youth Career *****************/
+
+article#youth tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+article#youth div#divtablee {
+    padding-left: 20px;
+}
+
+article#youth table#youtht th#gen1 {
+    padding-right: 70px;
+}
+
+article#youth table#youtht th#gen2 {
+    padding-right: 30px;
+}
+
+article#youth h1#title {
+    padding-left: 0px;
+    font-family: "Lucida Sans Unicode";
+}
+
+article#youth h1 {
+    padding-left: 20px;
+    font-family: "Lucida Sans Unicode";
+}
+
+article#youth div#parag {
+    padding-left: 20px;
+    font-family: "Lucida Sans Unicode";
+}
+
+article#youth img#genkp {
+    float: right;
+    height: 130px;
+    border: 2px solid black;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+article#youth table#youtht {
+    padding-left: 20px;
+    font-family: "Lucida Sans Unicode";
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+/***************** Senior Career *****************/
+
+article#senior img#chealsep {
+    height: 500px;
+    float: right;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+article#senior img#imgw {
+    float: left;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+article#senior img#wolf {
+    height: 190px;
+    float: right;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+article#senior img#kdbc1 {
+    height: 240px;
+    float: left;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+article#senior img#kdbc2 {
+    height: 260px;
+    float: right;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+article#senior img#kdbc4 {
+    height: 250px;
+    float: right;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+article#senior img#kdbc5 {
+    height: 250px;
+    float: left;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+article#senior img#kdbc3 {
+    height: 200px;
+    float: left;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 18px;
+}
+
+article#senior div#divtablee table#seniort {
+    padding-left: 10px;
+    font-family: "Lucida Sans Unicode";
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+article#senior div#divtablee {
+    padding-left: 20px;
+}
+
+article#senior th#gen1 {
+    padding-right: 60px;
+}
+
+article#senior th#gen2 {
+    padding-right: 100px;
+}
+
+article#senior th#gen3 {
+    padding-right: 20px;    
+}
+
+article#senior th#gen4 {
+    padding-right: 10px;
+}
+
+article#senior div#parag{
+    padding-left: 10px;
+    font-family: "Lucida Sans Unicode";
+}
+
+/********** Career Statistics ****************/
+
+article#inter th {
+    border: 1px solid grey;
+    background-color: #eaecf0;
+    text-align: center;
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    padding: 3px;
+    font-family: "Source Sans Pro";
+}
+
+article#inter td {
+    border: 1px solid grey;
+    padding: 3px;
+    font-family: "Source Sans Pro";
+}
+
+article#inter table {
+    border: 1px solid #54595d;
+    border-color: rgba(84,89,93,0.3);
+    margin-left: 11px;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "Source Sans Pro";
+}
+
+article#inter tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+article#inter {
+    font-family: "Source Sans Pro"; 
+}
+
+/********** National Team ****************/
+/*  National Team
+nav#menu {
+    margin-bottom: 10px;
+    background-color: #fb3540;
+    text-decoration: none;
+}
+
+#menu a {
+    color: #f7dd84;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Trebuchet MS";
+}
+*/
